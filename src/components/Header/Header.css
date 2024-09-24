@@ -1,0 +1,72 @@
+/* Main navbar container */
+.navbar {
+    position: sticky;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    background-color: var(--theme);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+/* Logo styles */
+.logo {
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1.5rem; /* Adjusted font size for better visibility */
+    margin: 0;
+    flex-shrink: 0; /* Prevents the logo from shrinking in small screens */
+}
+
+/* Link styles */
+.link {
+    color: var(--white);
+    margin-left: 1rem;
+    opacity: 0.8;
+    cursor: pointer;
+    font-size: 1rem; /* Adjusted font size for links */
+    white-space: nowrap; /* Prevents link text from breaking into multiple lines */
+}
+
+/* Hover effect for links */
+.link:hover {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0.75rem 1rem; /* Reduce padding on smaller screens */
+        flex-wrap: wrap; /* Allows wrapping if needed */
+    }
+
+    .logo {
+        font-size: 1.3rem; /* Slightly smaller logo on mobile */
+    }
+
+    .link {
+        font-size: 0.9rem; /* Smaller link text */
+        margin-left: 0.5rem; /* Reduce space between links */
+    }
+}
+
+/* Further adjustments for very small screens like phones */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 0.5rem; /* Further reduce padding for small devices */
+    }
+
+    .logo {
+        font-size: 1.2rem; /* Smaller logo font for phones */
+    }
+
+    .link {
+        font-size: 0.8rem; /* Smaller links for small devices */
+        margin-left: 0.4rem; /* Reduce margin between links */
+    }
+}
