@@ -1,0 +1,6 @@
+{
+    "rewrite": [{
+        "source" : "/(.)",
+        "desination" : "/index.html"
+    }]
+}
