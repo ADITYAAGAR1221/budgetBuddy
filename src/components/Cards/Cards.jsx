@@ -26,6 +26,7 @@ function Cards({
           <Button text="Add Income" blue={true} onClick={showIncomeModal}/>
         </Card>
 
+
         <Card bordered={true} className="my-card">
           <h2>Total Expenses</h2>
           <p>₹{expense}</p>

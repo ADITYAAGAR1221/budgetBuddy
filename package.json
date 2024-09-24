@@ -19,6 +19,7 @@
     "react-toastify": "^10.0.5",
     "web-vitals": "^2.1.4"
   },
+  
   "scripts": {
     "start": "react-scripts start",
     "host": "HOST=0.0.0.0 react-scripts start",

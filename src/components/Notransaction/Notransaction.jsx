@@ -20,4 +20,5 @@ function NoTransactions() {
   );
 }
 
+
 export default NoTransactions;

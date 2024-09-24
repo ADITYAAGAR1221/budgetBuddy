@@ -34,6 +34,7 @@ function Header (){
     }
   }
 
+  
   return (
    <div className="navbar"> 
     <p className="logo"> Budgetbuddy. </p>

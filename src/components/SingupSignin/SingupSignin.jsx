@@ -21,6 +21,7 @@ function SignupSigninComponent() {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
   const provider = new GoogleAuthProvider();
+  
 
   function signupWithEmail(){
     setLoading(true);

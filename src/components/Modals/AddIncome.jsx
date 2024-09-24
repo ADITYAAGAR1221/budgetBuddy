@@ -80,4 +80,5 @@ function AddIncomeModal({
   );
 }
 
+
 export default AddIncomeModal;

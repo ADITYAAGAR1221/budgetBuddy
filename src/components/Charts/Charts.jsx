@@ -17,6 +17,7 @@ function ChartComponents({ sortedTransactions }) {
     { tag: 'office', amount: 0 },
   ];
 
+  
   spendingData.forEach((item) => {
     if (item.tag === 'food') {
       newSpendings[0].amount += item.amount;
