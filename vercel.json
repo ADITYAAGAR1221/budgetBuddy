@@ -1,6 +1,7 @@
 {
-    "rewrite": [{
-        "source" : "/(.)",
-        "desination" : "/index.html"
-    }]
-}
+    "git": {
+      "deploymentEnabled": {
+        "main": false
+      }
+    }
+  }
